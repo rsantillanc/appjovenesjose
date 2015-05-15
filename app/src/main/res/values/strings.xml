@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">App Jóvenes José</string>
+    <string name="hello_world">¡Hola mundo!</string>
+    <string name="anything">Cualquier cosa.</string>
+
+    <!-- Menú string -->
+    <string name="action_settings">Config.</string>
+    <string name="action_search">Buscar</string>
+
+    <!-- Navigation items titles -->
+    <string name="nav_item1">Acceso</string>
+    <string name="nav_item2">Eventos</string>
+    <string name="nav_item3">Noticias</string>
+    <string name="nav_item4">Ubicación</string>
+    <string name="nav_item5">Información</string>
+
+    <!-- Navigation actionbar names -->
+    <string name="drawer_open">Cerrar</string>
+    <string name="drawer_close">Abrir</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item1</item>
+        <item>@string/nav_item2</item>
+        <item>@string/nav_item3</item>
+        <item>@string/nav_item4</item>
+        <item>@string/nav_item5</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="item0_fragment">This is Item 0</string>
+    <string name="item1_fragment">This is Item 1</string>
+    <string name="item2_fragment">This is Item 2</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="login">Iniciar</string>
+    <string name="default_cont">1</string>
+
+
+</resources>

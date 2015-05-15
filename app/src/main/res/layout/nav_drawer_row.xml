@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@drawable/list_selector">
+
+    <!--<View-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="0.5dp"-->
+        <!--android:id="@+id/divider_top"-->
+        <!--android:background="@color/gray_trans_50">-->
+    <!--</View>-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    android:padding="10dp"
+    android:weightSum="5">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_chat"
+        android:id="@+id/iv_icons_nav"
+        android:layout_weight="0.05"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center|left"
+        android:paddingLeft="8dp"
+        android:textSize="@dimen/txt_sp16"
+        android:layout_weight="5"
+        android:text="@string/anything"/>
+
+    <TextView
+        android:layout_marginTop="-3dp"
+        android:layout_width="33dp"
+        android:layout_height="28dp"
+        android:gravity="center"
+        android:layout_gravity="top"
+        android:textSize="@dimen/txt_sp10"
+        android:background="@drawable/layout_shadow"
+        android:textColor="@color/white"
+        android:text="@string/default_cont"
+        android:id="@+id/tv_count" />
+
+</LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:id="@+id/divider_bottom"
+        android:background="@color/gray_trans_50">
+    </View>
+
+</LinearLayout>
